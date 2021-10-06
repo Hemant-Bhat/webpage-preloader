@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preloading by Hemant bhat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="fun();">
+    <div id="preload">
+      <div class="loadbody">
+        <div class="load"></div>
+        <div class="load"></div>
+        <div class="load"></div>
+        <br /><br />
+        <h1 style="color: white; font-family: Arial; text-shadow: 0 0 30px red">
+          Loading....
+        </h1>
+      </div>
+    </div>
+    <header>
+      <h1 style="text-align: center; padding: 10px 0;">My Gallery</h1>
+      <p style="text-align: center; padding: 10px 0;">Follows On</p>
+      <div id="follow">
+        <a href="https://github.com/Hemant-Bhat" target="_blank"><box-icon name='github' type='logo' ></box-icon></a>
+        <a href="https://www.facebook.com/HemantBhat143/" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+        <a href="https://www.instagram.com/hemant__bhat/" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+        <a href="https://www.linkedin.com/in/hemant-bhat" target="_blank"><box-icon name='linkedin' type='logo' ></box-icon></a>
+      </div>
+    </header>
+    <div class="main">
+    <img src="./img/img1.jpg" alt="">
+    <img src="./img/img2.jpg" alt="">
+    <img src="./img/img3.jpg" alt="">
+    <img src="./img/img4.jpg" alt="">
+    <img src="./img/img1.jpg" alt="">
+    <img src="./img/img2.jpg" alt="">
+    <img src="./img/img3.jpg" alt="">
+    <img src="./img/img4.jpg" alt="">
+    <img src="./img/img1.jpg" alt="">
+    <img src="./img/img2.jpg" alt="">
+    <img src="./img/img3.jpg" alt="">
+    <img src="./img/img4.jpg" alt="">
+    <img src="./img/img1.jpg" alt="">
+    <img src="./img/img2.jpg" alt="">
+    <img src="./img/img3.jpg" alt="">
+    <img src="./img/img4.jpg" alt="">
+    <img src="./img/img1.jpg" alt="">
+    <img src="./img/img2.jpg" alt="">
+    </div>
+
+    <script>
+      var preload = document.getElementById("preload");
+      function fun() {
+        // alert("Loded");
+        preload.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
